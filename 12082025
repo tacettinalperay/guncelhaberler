@@ -1,0 +1,157 @@
+<!doctype html>
+<html lang="tr">
+<head>
+<meta charset="utf-8">
+<title>Ekonomi Gündemi – 12 Ağustos 2025</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Türkiye ve dünyadan seçili ekonomi/finans haberleri – 12.08.2025">
+<link rel="canonical" href="https://tacettinalperay.github.io/ekonomifinansblog/">
+<style>
+:root{
+  --bg:#0f172a;         /* arka plan */
+  --fg:#e5e7eb;         /* metin */
+  --muted:#94a3b8;      /* ikincil metin */
+  --card:#111827;       /* kart zemin */
+  --accent:#60a5fa;     /* başlık vurgu */
+  --tr:#22c55e;         /* TÜRKİYE etiketi */
+  --world:#facc15;      /* DÜNYA etiketi */
+  --link:#93c5fd;       /* link rengi */
+}
+*{box-sizing:border-box}
+html,body{height:100%}
+body{
+  margin:0;background:linear-gradient(135deg,#0b1022 0%,#0f172a 60%,#111827 100%);
+  color:var(--fg);font:16px/1.6 system-ui,-apple-system,Segoe UI,Roboto,Ubuntu,Arial,sans-serif;
+}
+.container{max-width:980px;margin:32px auto;padding:0 16px}
+.header{display:flex;align-items:center;gap:12px;margin-bottom:18px}
+.logo{width:44px;height:44px;border-radius:12px;background:#1f2937;display:grid;place-items:center;
+      box-shadow:0 8px 24px rgba(0,0,0,.35), inset 0 0 0 1px rgba(255,255,255,.08)}
+.logo span{font-weight:900;color:var(--accent)}
+h1{margin:0;font-size:clamp(22px,2.6vw,30px);letter-spacing:.2px}
+.sub{color:var(--muted);margin-top:4px}
+.grid{display:grid;gap:16px;grid-template-columns:repeat(auto-fit,minmax(280px,1fr))}
+.card{
+  background:linear-gradient(180deg,rgba(255,255,255,.04),rgba(255,255,255,.02));
+  border:1px solid rgba(255,255,255,.08);border-radius:16px;padding:18px 16px;
+  box-shadow:0 10px 28px rgba(0,0,0,.25);
+  transition:transform .18s ease, box-shadow .18s ease, border-color .18s ease
+}
+.card:hover{transform:translateY(-2px);box-shadow:0 14px 36px rgba(0,0,0,.35);border-color:rgba(255,255,255,.12)}
+.tag{font-size:12px;font-weight:700;display:inline-flex;align-items:center;gap:6px;
+     padding:6px 10px;border-radius:999px;color:#0b1022}
+.tag.tr{background:var(--tr)}
+.tag.world{background:var(--world)}
+.card h3{margin:12px 0 8px;font-size:18px;color:var(--fg)}
+.card p{margin:0 0 10px;color:var(--fg)}
+.card .src{font-size:13px;color:var(--muted)}
+a{color:var(--link);text-decoration:none}
+a:hover{text-decoration:underline}
+.footer{margin:28px 0 8px;color:var(--muted);font-size:13px;text-align:center}
+hr{border:none;border-top:1px solid rgba(255,255,255,.08);margin:22px 0}
+.note{background:#1d283a;border-left:4px solid var(--accent);padding:10px 12px;border-radius:8px;color:#dbeafe}
+</style>
+</head>
+<body>
+<main class="container">
+  <div class="header">
+    <div class="logo"><span>EF</span></div>
+    <div>
+      <h1>Ekonomi Gündemi — 12 Ağustos 2025</h1>
+      <div class="sub">Türkiye ve dünyadan seçili ekonomi/finans, yatırım, tarım ve enerji başlıkları</div>
+    </div>
+  </div>
+
+  <div class="note">
+    Bu sayfadaki özetler ilgili haber sayfalarına bağlanır; detay için kaynak linklerine tıklayın.
+  </div>
+
+  <h2 style="margin:22px 0 10px;color:var(--accent);font-size:20px">Türkiye</h2>
+  <section class="grid">
+    <!-- TR-1 -->
+    <article class="card" id="tr-fdi">
+      <span class="tag tr">TÜRKİYE</span>
+      <h3>Doğrudan yatırımlar yılın ilk yarısında %27,1 arttı</h3>
+      <p>Türkiye'ye gelen uluslararası doğrudan yatırımlar ilk altı ayda yıllık <b>%27,1</b> artış gösterdi. Sektörel ve ülke kırılımları haberde.</p>
+      <div class="src"><a href="https://www.aa.com.tr/tr/ekonomi/turkiyeye-gelen-uluslararasi-dogrudan-yatirimlar-yilin-ilk-yarisinda-yillik-yuzde-27-1-artti/3657275" target="_blank" rel="noopener">Kaynak: Anadolu Ajansı</a></div>
+    </article>
+
+    <!-- TR-2 -->
+    <article class="card" id="tr-ht">
+      <span class="tag tr">TÜRKİYE</span>
+      <h3>Yüksek teknoloji üretiminde tüm zamanların rekoru</h3>
+      <p>Sanayide yüksek teknoloji sınıfında üretim endeksi rekor seviyeye çıktı. Haberde alt sektörler ve aylık-seri detayı yer alıyor.</p>
+      <div class="src"><a href="https://www.dunya.com/ekonomi/yuksek-teknoloji-uretiminde-tum-zamanlarin-rekoru-kirildi-haberi-78931" target="_blank" rel="noopener">Kaynak: Dünya</a></div>
+    </article>
+
+    <!-- TR-3 -->
+    <article class="card" id="tr-bop">
+      <span class="tag tr">TÜRKİYE</span>
+      <h3>TCMB: Ödemeler Dengesi Raporu yayımlandı</h3>
+      <p>TCMB, güncel <em>Ödemeler Dengesi</em> raporunu paylaştı. Cari denge, finans hesabı ve rezerv hareketlerine ilişkin ayrıntılar PDF’dedir.</p>
+      <div class="src"><a href="https://tcmb.gov.tr/wps/wcm/connect/609ef884-3b3c-4bc3-84fe-9254244c3490/odemelerdengesi.pdf?MOD=AJPERES&CACHEID=ROOTWORKSPACE-609ef884-3b3c-4bc3-84fe-9254244c3490-pyt530n" target="_blank" rel="noopener">Kaynak: TCMB PDF</a></div>
+    </article>
+  </section>
+
+  <hr>
+
+  <h2 style="margin:10px 0;color:var(--accent);font-size:20px">Dünya</h2>
+  <section class="grid">
+    <!-- EU -->
+    <article class="card" id="eu-press">
+      <span class="tag world">DÜNYA</span>
+      <h3>AB Komisyonu duyurusu</h3>
+      <p>Avrupa Komisyonu, ekonomi/rekabet/yeşil dönüşüm başlıklarını içeren yeni bir paketi duyurdu. Uygulama takvimi ve sektör etkileri bağlantıda.</p>
+      <div class="src"><a href="https://ec.europa.eu/commission/presscorner/detail/en/ip_25_1954" target="_blank" rel="noopener">Kaynak: European Commission – Presscorner</a></div>
+    </article>
+
+    <!-- US–China -->
+    <article class="card" id="uschina">
+      <span class="tag world">DÜNYA</span>
+      <h3>ABD–Çin: Gümrük vergilerinde 90 günlük ateşkes uzatıldı</h3>
+      <p>Taraflar, ek tarifelerde artışı tetikleyecek adımları <b>90 gün</b> erteleyen ateşkesi uzattı. Küresel tedarik zinciri ve emtia cephesinde risk iştahını destekleyen bir gelişme.</p>
+      <div class="src"><a href="https://www.reuters.com/world/china/us-china-extend-tariff-truce-by-90-days-staving-off-surge-duties-2025-08-12/" target="_blank" rel="noopener">Kaynak: Reuters</a></div>
+    </article>
+
+    <!-- Fed / ABD makro -->
+    <article class="card" id="fed">
+      <span class="tag world">DÜNYA</span>
+      <h3>ABD: İstihdam verisi ve Fed tutumuna ilişkin yeni değerlendirmeler</h3>
+      <p>Fed yetkililerinin, son istihdam verilerinin politika kararlarına etkisine dair yorumları piyasada faiz patikası beklentilerini yeniden şekillendirdi.</p>
+      <div class="src"><a href="https://www.reuters.com/business/jobs-data-triggered-trump-fed-officials-saw-it-not-rigged-reason-cut-2025-08-12/" target="_blank" rel="noopener">Kaynak: Reuters</a></div>
+    </article>
+  </section>
+
+  <hr>
+
+  <h2 style="margin:10px 0;color:var(--accent);font-size:20px">Ekstra: Yatırım • Tarım • Enerji</h2>
+  <section class="grid">
+    <!-- Placeholder ek başlıklar; uygun haberi ekledikçe bu kartlara link koy -->
+    <article class="card">
+      <span class="tag world">YATIRIM</span>
+      <h3>Fon akımları & varlık sınıfları</h3>
+      <p>Hafta bazında hisse–tahvil–EM fon akımlarındaki yönelimi özetleyen notu portföye uyarlayın. (Güncel kaynak eklendiğinde buraya link koy.)</p>
+      <div class="src"><a href="#" onclick="return false">Kaynak eklenecek</a></div>
+    </article>
+
+    <article class="card">
+      <span class="tag tr">TARIM</span>
+      <h3>Ürün bazlı görünüm</h3>
+      <p>Buğday, mısır ve ayçiçeğinde küresel arz-talep dengesi; iç piyasaya olası etkiler. (Güncel resmi bülten/rapor linki ekleyin.)</p>
+      <div class="src"><a href="#" onclick="return false">Kaynak eklenecek</a></div>
+    </article>
+
+    <article class="card">
+      <span class="tag world">ENERJİ</span>
+      <h3>Petrol & doğal gaz</h3>
+      <p>OPEC+ üretim sinyalleri ve depolama verileri sonrası Brent/WTI eğilimleri. (Güncel piyasa raporu linki eklenecek.)</p>
+      <div class="src"><a href="#" onclick="return false">Kaynak eklenecek</a></div>
+    </article>
+  </section>
+
+  <div class="footer">
+    © 2025 Ekonomi & Finans Blog — 12.08.2025 güncellemesi • Tasarım: minimal/renkli kartlar
+  </div>
+</main>
+</body>
+</html>
